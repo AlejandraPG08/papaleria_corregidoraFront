@@ -1,0 +1,297 @@
+<?php
+include_once("views/header.php");
+include("views/menuUsuario.php");
+include("views/sucursal/indexWeb2.php");
+include("views/footerWeb.php");
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Papeleria Corregidora</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+    <script
+      src="https://kit.fontawesome.com/06882cb8b0.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/menu.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/menuUsuario.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/cards.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/cards2.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/buttons.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/forms.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/nosotros.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/login.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/inicio.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/contacto.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/sucursal.css"
+      rel="stylesheet"
+      type="text/css"/>
+    <link
+      href="css/productos.css"
+      rel="stylesheet"
+      type="text/css"/>
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo">
+          <img src="images/logo_bueno2.png" alt="Logo de la empresa" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li class="liMenu">
+              <i class="bx bxs-grid-alt"></i><a href="index.html">Inicio</a>
+            </li>
+            <li class="dropdown liMenu">
+              <i class="bx bxl-slack"></i>
+              <a href="javascript:void(0)" class="dropbtn">Productos
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/7030/7030531.png"
+                  alt="despliegue"
+                  class="despliegue"/>
+              </a>
+              <div class="dropdown-content">
+                <a href="productosWeb.html">Todos los productos</a>
+              </div>
+            </li>
+            <li class="dropdown liMenu">
+              <i class="fa-solid fa-people-roof"></i>
+              <a href="javascript:void(0)" class="dropbtn"
+                >Conocenos
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/7030/7030531.png"
+                  alt="despliegue"
+                  class="despliegue"
+                />
+              </a>
+              <div class="dropdown-content">
+                <a href="sucursalesWeb.html">Nuestras sucursales</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="linea" style="height: 8px; background-color: rgba(255, 204, 0, 0.903)"></div>
+      <div class="linea" style="height: 8px; background-color: #a4d703"></div>
+      <div class="linea" style="height: 8px; background-color: orange"></div>
+      <div class="color" style="background-color:#fcf6e1;">
+        <br><br>
+        <h3 class="titleSuc"> Sucursales
+            <span style="color: #A1CA0E; font-size: 3.5rem;">.</span>
+        </h3>
+        <div class="containerBody">
+            <div class="containerSuc">
+                <div class="cardS" style="--clr:#FF8D04;">
+                    <div class="imgBx">
+                        <img src="upload/sucursales/Democracia.png" alt="Profile">
+                    </div>
+                    <div class="contentSuc">
+                        <h3>
+                            Democracia
+                        </h3>
+                        <p>
+                            <b>Domicilio:</b>
+                            Democracia #105, Col. San Jose, Juventino Rosas, Gto.
+                            <br>
+                            <b>Teléfono:</b>
+                            (412)1576411
+                            <br>
+                            <b>Correo:</b>
+                            pape_correrico@hotmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="cardS" style="--clr:#FF8D04;">
+                    <div class="imgBx">
+                        <img src="upload/sucursales/Boulevard.jpeg" alt="Profile">
+                    </div>
+                    <div class="contentSuc">
+                        <h3>
+                            Boulevard
+                        </h3>
+                        <p>
+                            <b>Domicilio:</b>
+                            Boulevard Manuel M. Moreno #624, Zona Centro, Sta. Cruz de Juventino Rosas, Gto.
+                            <br>
+                            <b>Teléfono:</b>
+                            (412)1576411
+                            <br>
+                            <b>Correo:</b>
+                            pape_correrico@hotmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="cardS" style="--clr:#FF8D04;">
+                    <div class="imgBx">
+                        <img src="upload/sucursales/16_de_Septiembre.jpeg" alt="Profile">
+                    </div>
+                    <div class="contentSuc">
+                        <h3>
+                            16 de Septiembre
+                        </h3>
+                        <p>
+                            <b>Domicilio:</b>
+                            16 de Septiembre #104 B, Zona Centro, Sta. Cruz de Juventino Rosas, Gto.
+                            <br>
+                            <b>Teléfono:</b>
+                            (412)6905050
+                            <br>
+                            <b>Correo:</b>
+                            papecorregidora16sep@outlook.com
+                        </p>
+                    </div>
+                </div>
+                <div class="cardS" style="--clr:#FF8D04;">
+                    <div class="imgBx">
+                        <img src="upload/sucursales/Corregidora.jpeg" alt="Profile">
+                    </div>
+                    <div class="contentSuc">
+                        <h3>
+                            Corregidora
+                        </h3>
+                        <p>
+                            <b>Domicilio:</b>
+                            Corregidora #404, Zona Centro, Sta. Cruz de Juventino Rosas, Gto.
+                            <br>
+                            <b>Teléfono:</b>
+                            (412)1576411
+                            <br>
+                            <b>Correo:</b>
+                            pape_correrico@hotmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="cardS" style="--clr:#FF8D04;">
+                    <div class="imgBx">
+                        <img src="upload/sucursales/NOVA.jpeg" alt="Profile">
+                    </div>
+                    <div class="contentSuc">
+                        <h3>
+                            NOVA
+                        </h3>
+                        <p>
+                            <b>Domicilio:</b>
+                            16 de Septiembre #410, Zona Centro, Sta. Cruz de Juventino Rosas, Gto.
+                            <br>
+                            <b>Teléfono:</b>
+                            (412)6902683
+                            <br>
+                            <b>Correo:</b>
+                            pape_nova@hotmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grupo-1">
+          <div class="box">
+            <figure>
+              <a href="#">
+                <img src="images/papeleria.png" alt="icono de pie de pagina" />
+              </a>
+            </figure>
+          </div>
+          <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p style="text-align: justify">
+              En Papeleria Corregidora, nos esforzamos por ofrecer un excelente
+              servicio al cliente. Nuestro equipo está compuesto por expertos
+              amigables y conocedores que están listos para ayudarte a encontrar
+              los productos adecuados y responder a tus preguntas. Valoramos tu
+              satisfacción y nos esforzamos por brindarte una experiencia de
+              compra agradable y sin complicaciones.
+            </p>
+          </div>
+          <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <a
+                href="https://www.facebook.com/pages/Papeleria%20Corregidora/490820767708058/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.youtube.com"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+            <br />
+          </div>
+        </div>
+        <div class="grupo-2">
+          <small
+            >&copy; 2023 <b>Papeleria Corregidora</b> - Todos los derechos
+            reservados</small
+          >
+        </div>
+      </footer>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"
+      ></script>
+      <script src="js/menu.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/login.js"></script>
+      <script src="js/timeline.js"></script>
+      <script src="js/productos.js"></script>
+      <script src="js/button_alert.js" type="module"></script>
+    </body>
+  </html>
+  
