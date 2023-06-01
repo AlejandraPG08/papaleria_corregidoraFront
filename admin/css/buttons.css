@@ -1,0 +1,59 @@
+:root{
+    --color: #FCDD19;
+}
+.contenedor{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btnGeneral{
+    font-weight: 600;
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 10px;
+    background-color: #FF8D04 ;
+    transition: all 0.6s ease;
+}
+
+
+.btn-2:hover{
+    background-color:#B17E01;
+    box-shadow: 0 0 20px var(--color);
+    color: #fff;
+}
+
+.btn-2 span:nth-child(n){
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #A1CA0E ;
+    transition: all 0.9s ease;
+}
+
+.btn-2 span:nth-child(1){
+    right: 15%;
+    top: -13%;
+    background-color:#A1CA0E ;
+}
+
+.btn-2 span:nth-child(2){
+    left: 15%;
+    bottom: -13%;
+    background-color:#A1CA0E ;
+}
+
+.btn-2:hover span:nth-child(1){
+    right: 90%;
+    transform: rotate(90deg);
+    border: var(--color);
+    background-color: var(--color);
+}
+
+.btn-2:hover span:nth-child(2){
+    left: 90%;
+    transform: rotate(90deg);
+    border: var(--color);
+    background-color: var(--color);
+}

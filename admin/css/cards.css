@@ -1,0 +1,125 @@
+.container {
+  height: 580px;
+  width: 700px;
+  margin-top: 60px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #FFDB64;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.125);  
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+
+.wrapper {
+  width: 90%;
+  height: 95%;
+}
+
+.banner-image img {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+
+.sucursal{
+  color: rgba(14, 14, 14, 0.98);
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.text-center{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color: #000;
+  font-weight:700;
+}
+
+.contenido-sucursal {
+  color: #000;
+  text-align: center;
+  font-size: 0.975rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.no-elementos{
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  line-height: 150%;
+  letter-spacing: 2px
+}
+
+.button-wrapper{
+  margin-top: 18px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;  
+  letter-spacing: 2px;  
+  cursor: pointer;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: #FF8D04;
+  color: rgba(0, 0, 0, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease;
+}
+
+.outline:hover{
+  transform: scale(1.125);  
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(119, 33, 33, 0.125));
+  transition: all .3s ease;   
+  text-decoration: none; 
+  color: #FF8D04;
+}
+
+.fill {
+  background: rgb(161, 202, 14);
+  color: rgba(0, 0, 0, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease; 
+}
+
+.fill:hover{
+  transform: scale(1.125);  
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(119, 33, 33, 0.125));
+  transition: all .3s ease;   
+  text-decoration: none; 
+  color: #5A9813;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+  
+
+  
+
